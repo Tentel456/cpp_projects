@@ -30,7 +30,17 @@ int main()
         case 2:
             balance = withdraw(balance);
             break;
+        
+        case 3:
+            std::cout << "Ваш баланс:" << balance;
+            break;
+
+        case 4:
+            active = false;
+            break;
         }
+
+
     }
 
 
