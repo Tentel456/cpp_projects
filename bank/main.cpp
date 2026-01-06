@@ -6,7 +6,10 @@
 
 int main()
 {
+    int balance {};
+
+
+    bool active { true };
     welcome();
-    withdraw(deposit(0));
     return EXIT_SUCCESS;
 }
