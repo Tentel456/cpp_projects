@@ -37,7 +37,7 @@ int main()
             break;
 
         case 4:
-            active = false;
+            active = exit();
             break;
         }
 
