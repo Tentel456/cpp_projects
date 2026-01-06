@@ -3,7 +3,7 @@
 
 int deposit(int balance)
 {
-    std::cout << "Введите сумму для поплнения:";
+    std::cout << "Введите сумму для поплнения:\n";
     int deposit {};
     std::cin >> deposit;
     balance += deposit;
