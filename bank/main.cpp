@@ -2,6 +2,7 @@
 #include "deposit.h"
 #include "withdraw.h"
 #include "menu.h"
+#include "exit.h"
 #include <iostream>
 #include <cstdlib>
 
