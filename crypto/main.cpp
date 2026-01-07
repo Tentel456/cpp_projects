@@ -4,5 +4,6 @@
 
 int main()
 {
+    welcome();
     return EXIT_SUCCESS;
 }
