@@ -1,4 +1,5 @@
 #include "welcome.h"
+#include "menu.h"
 #include "input.h"
 #include <iostream>
 #include <cstdlib>
