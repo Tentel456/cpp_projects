@@ -7,6 +7,7 @@
 int main()
 {
     welcome();
+    menu();
     input();
     return EXIT_SUCCESS;
 }
