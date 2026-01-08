@@ -1,5 +1,6 @@
 #include "menu.h"
 #include "symbol.h"
+#include "input.h"
 #include <iostream>
 
 void menu()
@@ -16,8 +17,15 @@ void menu()
     std::cout << "USDT" << " " << usdt << "\n";
     std::cout << "\n";
     std::cout << "\n";
-    std::cout << "Действия:\n";
-    std::cout << "1. Пополнить баланс";
-    std::cout << "2. Сделать перевод";
-    std::cout << "3. Выйти из программы";
+    std::cout << "Действия:" << "\n";
+    std::cout << "1. Пополнить баланс" << "\n";
+    std::cout << "2. Сделать перевод" << "\n";
+    std::cout << "3. Выйти из программы" << "\n";
+
+    bool active { true };
+
+    int num {};
+    std::cin >> num;
+
+    
 }
