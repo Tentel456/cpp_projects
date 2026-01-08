@@ -5,10 +5,13 @@
 void menu()
 {
     std::cout << "Меню:\n";
-    int balance {1000}; //Пока заглушка
-    std::cout << "Ваш баланс:" << balance << symbol() << std::endl; //Добавить переменную баланс
-    std::cout << "Ваши криптоактивы:";
-    int bitcoin {};
-    int ethereum {};
-    int usdt {};
+    int balance {0}; //начальный баланс
+    std::cout << "Ваш баланс:" << balance << symbol() << std::endl; 
+    std::cout << "Ваши криптоактивы:\n";
+    int bitcoin { 0 };
+    int ethereum { 0 };
+    int usdt { 0 };
+    std::cout << "Bitcoin:" << " " << bitcoin << "\n";
+    std::cout << "Ethereum" << " " << ethereum << "\n";
+    std::cout << "USDT" << " " << usdt << "\n";
 }
