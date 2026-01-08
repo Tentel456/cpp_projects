@@ -14,4 +14,10 @@ void menu()
     std::cout << "Bitcoin:" << " " << bitcoin << "\n";
     std::cout << "Ethereum" << " " << ethereum << "\n";
     std::cout << "USDT" << " " << usdt << "\n";
+    std::cout << "\n";
+    std::cout << "\n";
+    std::cout << "Действия:\n";
+    std::cout << "1. Пополнить баланс";
+    std::cout << "2. Сделать перевод";
+    std::cout << "3. Выйти из программы";
 }
