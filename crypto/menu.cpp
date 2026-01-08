@@ -37,6 +37,10 @@ void menu()
             std::cout << "Ваш баланс:" << balance;
             break;
 
+            
+            case 3:
+            active = false;
+
 
         }
     }
