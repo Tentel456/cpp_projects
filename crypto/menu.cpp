@@ -27,5 +27,19 @@ void menu()
     int num {};
     std::cin >> num;
 
+    while ( active )
+    {
+        switch ( num )
+        {
+            case 1:
+            input();
+            balance += input();
+            std::cout << "Ваш баланс:" << balance;
+            break;
+
+
+        }
+    }
+
     
 }
