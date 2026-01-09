@@ -20,7 +20,8 @@ void menu()
     std::cout << "Действия:" << "\n";
     std::cout << "1. Пополнить баланс" << "\n";
     std::cout << "2. Сделать перевод" << "\n";
-    std::cout << "3. Выйти из программы" << "\n";
+    std::cout << "3. Настройки" << "\n";
+    std::cout << "4. Выйти из программы" << "\n";
 
     bool active { true };
 
@@ -39,6 +40,7 @@ void menu()
 
             
             case 3:
+            std::cout << "Завершение работы!";
             active = false;
 
 
