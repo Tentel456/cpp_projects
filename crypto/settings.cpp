@@ -1,3 +1,4 @@
+#include "settings.h"
 #include <iostream>
 
 void settings()
