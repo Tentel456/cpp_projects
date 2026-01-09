@@ -21,6 +21,16 @@ void settings()
 			case 2:
 			std::cout << "Функция установки лимита на инвестиции в разработке.\n";
 			break;
+
+			case 3:
+			std::cout << "Возврат в главное меню...\n";
+			active = false;
+			break;
+
+			
+			default:
+			std::cout << "Неверный выбор. Пожалуйста, выберите снова.\n";
+			break;
 			
 		}
 	}
