@@ -9,4 +9,14 @@ void settings()
 	bool active { true };
 	int choice {};	
 	std::cin >> choice;
+
+	while ( active )
+	{
+		switch ( choice )
+		{
+			case 1:
+			std::cout << "Функция изменения валюты по умолчанию в разработке.\n";
+			break;
+		}
+	}
 }	
